@@ -1,0 +1,67 @@
+
+* {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+    margin: 0;
+}
+
+.top-bar {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.icons input {
+    padding: 5px;
+}
+.banner{
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    position: relative;
+  
+}
+.banner h1{
+    position: absolute;
+    color:white;
+    z-index: 9999;
+    padding-top: 100px;
+    padding-left: 200px;
+    font-size: 96px;
+}
+.tres{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 20px;
+    gap: 3%;
+}
+.tres img{
+    width: 33%;
+}
+.sapato{
+      display: flex;
+    width: 10%;
+    
+}
+.sapatp h1{
+font-size: 16px;
+ margin-bottom: 5px;
+}
